@@ -8,7 +8,7 @@ import database
 # अपनी डिटेल्स यहाँ डालें
 API_ID = 36735558 
 API_HASH = "fcd0e09634ee9e526a8da20e6d295cad"
-BOT_TOKEN = "8965216924:AAFhHrLtihYIBjFVIBtjggkwnGmYuYeSLg0"
+BOT_TOKEN = "8445491147:AAHcyojAnNRdXYzHHHNVjx-CAVVgkRnnI-8"
 
 app = Client("RonakKeyBot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
@@ -18,9 +18,9 @@ def get_main_menu_keyboard():
         [InlineKeyboardButton("📊 Usage", callback_data="view_key")],
         [
             InlineKeyboardButton("📚 API Docs", callback_data="api_docs"),
-            InlineKeyboardButton("💬 Support ↗", url="https://t.me/+SrpDLzodeAsyNGI8")
+            InlineKeyboardButton("💬 Support ↗", url="https://t.me/ll_ROYAL_ABOUT_ll")
         ],
-        [InlineKeyboardButton("📢 Channel ↗", url="https://t.me/MusicXUpdate")]
+        [InlineKeyboardButton("📢 Channel ↗", url="https://t.me/ll_ROYAL_ABOUT_ll")]
     ])
 
 @app.on_message(filters.command("start") & filters.private)
